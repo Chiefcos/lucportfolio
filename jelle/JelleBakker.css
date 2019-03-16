@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v16/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://fonts.gstatic.com/s/robotocondensed/v16/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCQYbw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Josefin Sans Italic'), local('JosefinSans-Italic'), url(https://fonts.gstatic.com/s/josefinsans/v12/Qw3EZQNVED7rKGKxtqIqX5EUCEx6XHg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Josefin Sans Bold Italic'), local('JosefinSans-BoldItalic'), url(https://fonts.gstatic.com/s/josefinsans/v12/Qw3HZQNVED7rKGKxtqIqX5EUCETBeW0jqp4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(https://fonts.gstatic.com/s/josefinsans/v12/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v12/Qw3FZQNVED7rKGKxtqIqX5Ectllte10h.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body{
+  background-image: url("https://www.travelvalley.nl/uploads/headers/festivals-zomer-2017.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 530px;
+  background-position: center;
+  background-attachment: fixed;
+}
+h2{
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 700;
+}
+.Menu{
+  display: inline-block;
+  border: solid white 5px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: -3px;
+}
+a{
+  font-family: 'Roboto Condensed';
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+p{
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  font-weight: italic;
+  position: relative;
+}
+h1{
+  text-align: center;
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
+  position: relative;
+}
+.identifier{
+  display: inline-block;
+  position: absolute;
+}
+.paragraaf{
+  display: block;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  opacity: 0.7;
+  text-align: center;
+  margin-top: 90px;
+  border-radius: 10px;
+}
+.paragraafover{
+  display: block;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 20px 30px;
+  background-color: white;
+  padding: 10px;
+  opacity: 0.7;
+  text-align: center;
+  margin-top: 90px;
+  border-radius: 10px;
+}
+.Tommorowland{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  border: 10px;
+  margin-left: 120px;
+  margin-top: 20px;
+  text-shadow: 3px 3px gray;
+}
+.tomorrowlandpic{
+  border-radius: 100%;
+  border: 10px solid white;
+}
+.Bestkeptsecret{
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin-right: 120px;
+  margin-top: 20px;
+  text-align: center;
+  text-shadow: 3px 3px gray;
+}
+.picBestkeptsecret{
+  border-radius: 100%;
+  border: 10px solid white;
+}
+.Eminem{
+  text-align: center;
+  text-shadow: 3px 3px gray;
+  display: inline-block;
+  position: relative;
+  margin-left: 100px;
+}
+.piceminem{
+  border-radius: 100%;
+  border: 10px solid white;
+}

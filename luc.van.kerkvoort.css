@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(https://fonts.gstatic.com/s/dancingscript/v9/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Dancing Script Bold'), local('DancingScript-Bold'), url(https://fonts.gstatic.com/s/dancingscript/v9/If2SXTr6YS-zF4S-kcSWSVi_szpbr_QqqiM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Satisfy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v8/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.gridcontainer{
+  display: grid;
+  width: 100%;
+  height: 800px;
+  grid-template: repeat(8,1fr)/ repeat(12,1fr);
+}
+.header{
+grid-column: 1 / 13;
+background-color: black;
+padding: 10px;
+}
+.photography{
+grid-column: 1/ span 4;
+grid-row: 2 / 8;
+background-color: black;
+}
+.webdevelopment{
+grid-column: 5/span 4 ;
+grid-row: 2 / 8;
+background-color: black;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.graphicdesign{
+grid-column: 9/ 13;
+grid-row: 2 / 8;
+background-image: url(pencil.png);
+background-color: black;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.footer{
+  grid-column: 1 / 13;
+  background-color: black;
+}
+.headertext{
+  margin-top: 40px;
+  text-align: center;
+  color: #D4AF37;
+  position: relative;
+}
+.textphotography,
+.textwebdevelopment,
+.textgraphicdesign, h2{
+  text-align: center;
+  margin-top: 5%;
+  cursor: pointer;
+}
+h2{
+  display: inline-block;
+  color: 	#ffcf40;
+  border: 5px	#ffcf40 solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Dancing Script';
+  font-weight: 700;
+  text-shadow: 2px 2px grey;
+  background-color: black;
+}
+h1{
+  font-family: 'Satisfy';
+}
+.logo{
+position: absolute;
+}
+.format{
+  margin-top: 5px;
+  height: 500px;
+  width: 400px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.A{
+  background-image: url(https://i.pinimg.com/736x/62/5b/82/625b824dc1cb31c58361655ff5e47f9b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.B{
+  background-color: white;
+  background-image: url(webdevelopment.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.C{
+  background-image: url(graphicdesign.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footertext{
+  text-align: right;
+  color: #ffcf40;
+  margin-right: 10px;
+  font-size: 18px;
+  font-family: 'Dancing Script';
+}
+.active{
+  background-color: white;
+}
+#hidden{
+  margin-left: 18%;
+  padding: 10px;
+}
+#hide{
+  margin-left: 25%;
+  padding: 2px;
+  filter: grayscale(100%);
+}
+#hide:hover{
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+.gallery{
+display: inline-block;
+}

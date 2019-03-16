@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6Mk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Merienda';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merienda'), local('Merienda-Regular_0_wt'), url(https://fonts.gstatic.com/s/merienda/v5/gNMHW3x8Qoy5_mf8uWMFMIo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body{
+  background-image: url(https://www.bagnallfamilydentistry.com/wp-content/uploads/2013/06/dental-stock-15-e1404470293679.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 689px;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 1
+}
+a{
+  color: white;
+  font-family: 'Pacifico';
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+h1{
+  font-family: 'Pacifico';
+  font-size: 36px;
+  font-weight: 200;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  border-style: solid;
+  border-color: rgba(0, 109, 179, 1);
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+}
+h2{
+  font-family: 'Pacifico';
+  font-size: 26px;
+}
+p{
+  font-family: 'Merienda';
+  font-weight: 600;
+}
+.Menu{
+  text-align: left;
+  line-height: 25px;
+  background-color: rgb(0, 109, 179);
+  opacity: 0.9;
+  color: white;
+  position: fixed;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: -4px;
+  top: 50%;
+}
+.Tooth{
+margin: 0 80%;
+}
+.location{
+  margin-top: 100px;
+  position: relative;
+  left: 20%
+}
+.Contactinfo{
+  margin-left: 20%;
+  margin-right: 25%;
+  border: 3px;
+  border-radius: 5px;
+  border-color: rgb(0, 109, 179);
+  border-style: groove;
+  background-color: white;
+  padding: 5px;
+  position: relative;
+  display: block;
+  text-align: left;
+}
